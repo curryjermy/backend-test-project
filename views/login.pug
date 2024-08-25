@@ -1,0 +1,18 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title login
+.login-container
+  h3 Login
+  form.login-page(action='/login' method='post')
+    label(for='') username
+    br
+    input#username(type='text' name='username' required='')
+    br
+    label(for='') password
+    br
+    input#password(type='password' name='password' required='')
+    br
+    input(type='submit')
+a(href='/index') go to home page

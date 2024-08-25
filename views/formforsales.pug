@@ -1,0 +1,22 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title formforsales
+form(action='/form2')
+  label(for='') Name of produce
+  input#soldproduce(type='text' name='nameOfProduce' required='')
+  br
+  label(for='') Type of produce
+  input#producetype(type='text' name='typeOfProduce' required='')
+  br
+  label(for='') Weight of produce(tonnage in kgs)
+  input#produceweight(type='text' name='weightOfProduce' required='')
+  br
+  label(for='') Amount paid
+  input#amountpaid(type='text' name='amountPaid' required='')
+  br
+  label(for='') Name of the buyer
+  input#buyername(type='text' name='nameOfTheBuyer' required='')
+  br
+  input(type='submit')
